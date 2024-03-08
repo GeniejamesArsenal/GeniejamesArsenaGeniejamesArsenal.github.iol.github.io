@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    line-height: normal;
+    background: #355a51;
+  }
+  
+  :root {
+    /* fonts */
+    --font-inter: Inter;
+  
+    /* font sizes */
+    --font-size-xs: 12px;
+  
+    /* Colors */
+    --color-darkslategray-100: #274c43;
+    --color-gainsboro: rgba(217, 217, 217, 0);
+    --color-darkgray-100: #b9aaaa;
+    --color-darkgray-200: #b9a9a9;
+  
+    /* Paddings */
+    --padding-xl: 20px;
+    --padding-2xs: 11px;
+    --padding-xs: 12px;
+  
+    /* Border radiuses */
+    --br-sm: 14px;
+  }

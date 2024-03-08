@@ -1,0 +1,139 @@
+
+.untitled-design-1-1 {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    left: -4px;
+    top: 3px;
+    transform: scale(1.196);
+  }
+  .logo {
+    width: 145px;
+    height: 149px;
+    position: relative;
+    border-radius: 72.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .user-child {
+    height: 37px;
+    width: 256px;
+    position: relative;
+    border-radius: var(--br-sm);
+    background-color: var(--color-gainsboro);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+    border: 1px solid var(--color-darkgray-100);
+    box-sizing: border-box;
+    display: none;
+  }
+  .user1 {
+    width: 34px;
+    border: 0;
+    outline: 0;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-xs);
+    background-color: transparent;
+    height: 15px;
+    position: relative;
+    color: var(--color-darkgray-200);
+    text-align: left;
+    display: inline-block;
+    z-index: 1;
+  }
+  .password-child,
+  .user {
+    width: 256px;
+    border-radius: var(--br-sm);
+    background-color: var(--color-gainsboro);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+    box-sizing: border-box;
+  }
+  .user {
+    border: 1px solid var(--color-darkgray-100);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-2xs) var(--padding-xs);
+  }
+  .password-child {
+    height: 37px;
+    position: relative;
+    border: 1px solid var(--color-darkgray-200);
+    display: none;
+  }
+  .password1 {
+    width: 63px;
+    border: 0;
+    outline: 0;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-xs);
+    background-color: transparent;
+    height: 15px;
+    position: relative;
+    color: var(--color-darkgray-200);
+    text-align: left;
+    display: inline-block;
+    z-index: 1;
+  }
+  .log-in-child,
+  .password {
+    width: 256px;
+    border-radius: var(--br-sm);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+  }
+  .password {
+    background-color: var(--color-gainsboro);
+    border: 1px solid var(--color-darkgray-200);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-xs) var(--padding-xs) 10px;
+  }
+  .log-in-child {
+    height: 37px;
+    position: relative;
+    background-color: var(--color-darkslategray-100);
+    display: none;
+  }
+  .log-in1 {
+    position: relative;
+    font-size: var(--font-size-xs);
+    font-family: var(--font-inter);
+    color: #fff;
+    text-align: left;
+    z-index: 1;
+  }
+  .iphone-14-15-pro-max-1,
+  .log-in {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .log-in {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-2xs) 21px var(--padding-2xs) var(--padding-xl);
+    background-color: var(--color-darkslategray-100);
+    width: 256px;
+    border-radius: var(--br-sm);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+    flex-direction: row;
+    justify-content: center;
+  }
+  .iphone-14-15-pro-max-1 {
+    margin: 0;
+    width: 100%;
+    height: 932px;
+    position: relative;
+    background-color: #355a51;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 211px var(--padding-xl) 386px;
+    gap: 25px 0;
+  }
